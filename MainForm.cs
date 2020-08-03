@@ -30,7 +30,7 @@ namespace LinkHelper
                                              IntPtr wParam,
                                              IntPtr lParam);
 
-        public static String version = "1.0-snapshot";
+        public static String version = "1.0.1";
         public static String clipboard;
         private bool ready = false;
 
@@ -107,6 +107,7 @@ namespace LinkHelper
                 }
             }
         }
+
 
         private String shortUrlWithSLS(String url)
         {
